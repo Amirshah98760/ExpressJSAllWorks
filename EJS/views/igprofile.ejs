@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        .container{
+            width: 100%;
+            display: flex;
+            border:2px solid black;
+            /* justify-content: space-around;
+            align-items: center; */
+        }
+        img{
+            width: 30%;
+            height: 30%;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        ul li{
+            list-style-type: none;
+        
+        }
+        .lists{
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Instagram Profile: <%= data.name %></h1>
+    <button>Follow</button>
+    <button>Message</button>
+<h2>Followers : <%= data.followers %> &nbsp;  <span>Following : <%= data.following %></span></h2>
+
+<h2>Posts</h2>
+<div class="container">
+    <ul class="lists">
+    <% for(let post of data.posts) { %>
+        <li>
+            <img src="<%= post.image %>" alt="Post image" style="width:100px;height:100px;">
+            <p>Likes: <%= post.likes %></p>
+            <p>Comments: <%= post.comments %></p>
+        </li>
+    <% } %>
+</ul>
+</div>
+
+</body>
+</html>

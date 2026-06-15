@@ -1,0 +1,67 @@
+{
+  "cats": {
+    "name": "cats",
+    "followers": 3,
+    "following": 5,
+    "posts": [
+      {
+        "image": "https://plus.unsplash.com/premium_photo-1674316194408-979a3a6a907a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0cyUyMGltYWdlfGVufDB8fDB8fHww",
+        "likes": 150,
+        "comments": 20
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1743835270088-7cd3ef0b4f1a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0cyUyMGltYWdlfGVufDB8fDB8fHww",
+        "likes": 200,
+        "comments": 30
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1743835270041-da48f539d65d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2F0cyUyMGltYWdlfGVufDB8fDB8fHww",
+        "likes": 250,
+        "comments": 40
+      }
+    ]
+  },
+  "dogs": {
+    "name": "dogs",
+    "followers": 4,
+    "following": 6,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1635088278032-8ff6d918cc49?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZG9ncyUyMGltYWdlfGVufDB8fDB8fHww",
+        "likes": 180,
+        "comments": 25
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1642920251393-4a4c00afaab5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9ncyUyMGltYWdlfGVufDB8fDB8fHww",
+        "likes": 220,
+        "comments": 35
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1591300673309-092e8afa699b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZG9ncyUyMGltYWdlfGVufDB8fDB8fHww",
+        "comments": 45
+      }
+    ]
+  },
+  "birds": {
+    "name": "birds",
+    "followers": 2,
+    "following": 4,
+    "posts": [
+      {
+        "image": "bird1.jpg",
+        "likes": 130,
+        "comments": 15
+      },
+      {
+        "image": "bird2.jpg",
+        "likes": 170,
+        "comments": 22
+      },
+      {
+        "image": "bird3.jpg",
+        "likes": 210,
+        "comments": 28
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice</title>
+</head>
+<body>
+    <h1>Roll the Dice!</h1>
+    <p>You rolled a: <%= randomNumber %></p>
+    <% if (randomNumber === 6) { %>
+        <p>Congratulations! You rolled the highest number!</p>
+    <% } %>
+    <button style="cursor: pointer;" onclick="window.location.reload();">Roll Again</button>
+</body>
+</html>

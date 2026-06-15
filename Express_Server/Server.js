@@ -3,7 +3,6 @@ const app = express();
 const port = 3000;
 
 
-
 app.get('/', (req, res) =>{
     res.send('Hello world!');
 });
@@ -13,10 +12,10 @@ app.get('/about', (req, res) =>{
     // res.send('This is the about page');
     res.send('<h1>About Page</h1>');
 });
-app.get('/:items/:id', (req, res) =>{
-    const {items, id } = req.params;
-    res.send(`This is item number ${id} of ${items}`)
-})
+// app.get('/:items/:id', (req, res) =>{
+//     const {items, id } = req.params;
+//     res.send(`This is item number ${id} of ${items}`)
+// })
 
 app.get('/Data', (req, res) =>{
     const data = '<h1>Data Page</h1><ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul>';
@@ -66,6 +65,7 @@ app.get('/:username/:id', (req , res)=>{
     console.log(username, id)
     res.send(`<h1>Welcome to ${username}'s profile page and id is ${id}</h1>`);
 })
+
 
 app.listen(port, () =>{
     console.log(`The Server is listening on port: ${port}`);
